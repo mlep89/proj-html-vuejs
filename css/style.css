@@ -14,6 +14,7 @@
     background-color: grey;
 }
 
+/*Inizio Jumbotron Section */
 .jumbotron {
     width: 100%;
     height: 400px;
@@ -74,3 +75,121 @@
     color: #bf351f;
     text-decoration-line: none;
 }
+/*Fine Jumbotron Section */
+
+
+/*Inizio Counter Section */
+.counter {
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/counter.jpg);
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter_boxes_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.counter_boxes {
+    padding: 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #272727;
+    color: white;
+}
+
+.counter_boxes p {
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.counter_input input,
+.counter_input button {
+    padding: 20px;
+    border: none;
+}
+
+.counter_input {
+    text-align: center;
+}
+
+.counter_input h3 {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.counter_input button {
+    background-color: #f72b0c;
+    color: white;
+    text-transform: uppercase;
+}
+/*Fine Counter Section */
+
+
+/*Inizio Speaker Section */
+.speakers {
+    width: 100%;
+    height: 400px;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.speakers_container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.speakers_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.speakers_title h2 {
+    text-transform: uppercase;
+}
+
+.speakers_arrows i {
+    background-color:#f72b0c;
+    color: white;
+    padding: 10px;
+    font-size: 10px;
+}
+
+.speakers_icons {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.speakers_card {
+    text-align: center;
+}
+
+.speakers_card > img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.speakers_card > h4 {
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.speakers_card > p {
+    font-style: italic;
+    color: grey;
+}
+/*Fine Speaker Section */
