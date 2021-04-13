@@ -302,10 +302,251 @@
 /*Inizio Maps Section */
 .maps {
     width: 100%;
-    height: 100px;
+    height: 300px;
 }
 
 .maps img {
     width: 100px;
 }
 /*Fine Maps Section */
+
+/*Inizio Location Section */
+.location {
+    width: 100%;
+    padding: 30px;
+    background-image: url(../img/location.jpg);
+    background-size: contain;
+    background-position-x: right;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.location_top {
+    padding: 20px;
+}
+
+.location_top h3,
+.location_top h5 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+#location_red {
+    color: red;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.location_bottom {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    border-top: 1px solid white;
+    padding-top: 10px;
+}
+
+.location_bottom i {
+    padding-right: 10px;
+}
+/*Fine Location Section */
+
+/*Inizio News Section */
+.news {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.news_container {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.news_title {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-top: 40px;
+}
+
+.news_title h2 {
+    text-transform: uppercase;
+}
+
+.news_post_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-top: 30px;
+}
+
+.news_post_container h5 {
+    text-transform: uppercase;
+}
+
+.news_post_container img {
+    width: 100%;
+}
+.news_post_container div:first-child {
+    padding-right: 20px;
+}
+
+.news_post_container div:last-child {
+    padding-left: 20px;
+}
+
+.news_post p {
+    padding-top: 20px;
+    color: 9c9c9c;
+    font-style: italic;
+}
+
+.new_post_red {
+    color:#bf351f;
+    font-style: italic;
+}
+/*Fine News Section */
+
+/*Inizio Tickets Section */
+.tickets {
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.tickets_background { 
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    filter: grayscale(60%) blur(3px);
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.tickets_container {
+    width: 60%;
+    margin: 0 auto;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    align-content: center;
+}
+
+.tickets_cards {
+    width: 100%;
+}
+
+.tickets_cards h2 {
+    color: white;
+    text-transform: uppercase;
+}
+
+.ticket_cards_container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.ticket_card {
+    width: calc(100% / 3);
+}
+.ticket_header {
+    background-color: lightgray;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.ticket_header p {
+    color: #f72b0c;
+}
+
+.ticket_main {
+    background-color: white;
+    color: lightgray;
+    font-style: italic;
+    padding: 10px;
+}
+
+.ticket_main ul {
+    list-style: none;
+}
+
+.ticket_footer {
+    background-color: #f72b0c;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+}
+/*Fine Tickets Section */
+
+/*Inizio Presentations Section */
+.presentations {
+    width: 100%;
+    margin: 0 auto;
+    height: 400px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.presentations_container {
+    width: 60%;
+    height: 100%;
+    display: flex;
+}
+
+.presentations_container h2 {
+    text-transform: uppercase;
+}
+
+.presentations_video,
+.presentations_twitter {
+    width: 50%;
+    padding: 10px;
+}
+
+.presentations_video img {
+    width: 100%;
+    padding: 10px;
+}
+
+.presentations_twitter div,
+.presentations_video div {
+    margin: 10px 0px;
+}
+
+.presentations_twitter_div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.presentations_twitter i {
+    color: #1da1f2;
+    padding-right: 10px;
+}
+
+.presentations_twitter p,
+.presentations_twitter a,
+.presentations_twitter span {
+    font-size: 12px;
+}
+
+.presentations_twitter a,
+.presentations_twitter span {
+    color: #bf351f;
+}
+
+.presentations_date {
+    color: grey;
+    font-style: italic;
+    padding-top: 10px;
+}
+/*Fine Presentations Section */
