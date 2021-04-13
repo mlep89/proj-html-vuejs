@@ -14,7 +14,16 @@
     <div id="root">
         <!--Inizio header-->
         <div class="header">
-            <!--Strutturare con js -->
+            <div class="header_container">
+                <div>
+                    <img :src="logo" alt="KeyNote logo">
+                </div>
+                <div :class="menu">
+                    <ul :class="liststyle">
+                        <li v-for="item in header" :class="inline">{{item}}</li>
+                    </ul>
+                </div>
+            </div>
         </div>
         <!--Fine header-->
 
@@ -474,9 +483,11 @@
 
 
         <!--Inizio Footer -->
-        <div>
-            <!--Strutturare con js -->
+        <div class="footer">
+            <div class="footer_container">   
+            </div>
         </div>
+        <div class="footer_bottom"></div>
         <!--Fine Footer -->
 
     </div>

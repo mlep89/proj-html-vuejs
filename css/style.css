@@ -2,17 +2,41 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 #root {
     width: 100vw;
 }
 
+/*Inizio Header Section */
 .header {
     width: 100%;
     height: 70px;
-    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
+
+.header_container {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.liststyle {
+    list-style: none;
+}
+
+.inline {
+    display: inline-block;
+    font-size: 12px;
+    padding: 10px;
+}
+/*Fine Header Section */
 
 /*Inizio Jumbotron Section */
 .jumbotron {
@@ -66,14 +90,30 @@
     padding: 10px;
 }
 
+.jumbo_elements i {
+    color: #9c9c9c
+}
+
 .bottom_jumbo_box {
     padding-left: 20px
+}
+
+.bottom_jumbo_box h3 {
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.bottom_jumbo_box p {
+    color: #9c9c9c;
+    padding-bottom: 20px;
+    font-size: 14px;
 }
 
 .bottom_jumbo a {
     font-style: italic;
     color: #bf351f;
     text-decoration-line: none;
+    font-size: 14px;
 }
 /*Fine Jumbotron Section */
 
@@ -102,7 +142,7 @@
     margin-right: 10px;
     border-radius: 5px;
     text-align: center;
-    background-color: #272727;
+    background-color: rgba(0,0,0, 0.6);
     color: white;
 }
 
@@ -184,13 +224,16 @@
 
 .speakers_card > h4 {
     text-transform: uppercase;
-    margin-top: 10px;
-    margin-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #403d3b;
+    font-size: 14px;
 }
 
 .speakers_card > p {
     font-style: italic;
-    color: grey;
+    color: #868686;
+    font-size: 12px;
 }
 /*Fine Speaker Section */
 
@@ -230,13 +273,13 @@
 .program_header_main {
     width: 50%;
     padding-left: 30px;
-    color: grey;
+    color: #9c9c9c;
 }
 
 .program_header_right {
     width: 25%;
     text-align: right;
-    color:#bf351f;
+    color: #f72b0c;
     font-style: italic;
 }
 
@@ -275,6 +318,7 @@
 
 .program_left p {
     padding-bottom: 10px;
+    color: #8b8a87;
 }
 .program_left p:last-child {
     color: #f72b0c;
@@ -282,10 +326,17 @@
 
 .program_left i {
     padding-right: 20px;
+    color: #8b8a87;
 }
 
 .program_right {
     width: 70%;
+}
+
+.program_right p {
+    color: #9c9c9c;
+    line-height: 2em;
+    font-size: 8px;
 }
 
 .program_right p {
@@ -294,7 +345,7 @@
 }
 
 .program_right img {
-    width: 50px;
+    width: 30px;
     padding-top: 20px;
 }
 /*Fine Program Section */
@@ -680,3 +731,31 @@
     width: 100%;
 }
 /*Fine Sponsors Section */
+
+/*Inizio Footer Section */
+.footer {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #212121;
+}
+
+.footer_container {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.footer_bottom {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #161616;
+}
+
+/*Fine Footer Section */
