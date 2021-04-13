@@ -9,7 +9,13 @@ var root = new Vue ({
         footer: [ 
             {
                 "title":'about us',
-
+                "text": 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
+                "fb": '',
+                "linkedin": '',
+                "linkedin": '',
+                "google": '',
+                "pinterest": '',
+                "other": ''
             },
             {
                 "title": 'recent news',
