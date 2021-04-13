@@ -393,8 +393,24 @@
 .news_post_container img {
     width: 100%;
 }
-.news_post_container div:first-child {
-    padding-right: 20px;
+
+#sticked_img {
+    position: relative;
+}
+.sticky_post {
+    position: absolute;
+    bottom: 4px;
+    right: 0px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    background-color: #403d3b;
+}
+
+.news_post_container div:nth-child(2) {
+    padding-left: 20px;
 }
 
 .news_post_container div:last-child {
@@ -417,11 +433,9 @@
 .tickets {
     width: 100%;
     height: 400px;
-    position: relative;
 }
 
 .tickets_background { 
-    position: absolute;
     height: 100%;
     width: 100%;
     filter: grayscale(60%) blur(3px);
@@ -509,7 +523,11 @@
 .presentations_video,
 .presentations_twitter {
     width: 50%;
+    height: 100%;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .presentations_video img {
@@ -525,7 +543,7 @@
 .presentations_twitter_div {
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-content: space-around;
 }
 
 .presentations_twitter i {
@@ -550,3 +568,43 @@
     padding-top: 10px;
 }
 /*Fine Presentations Section */
+
+/*Inizio Sponsors Section */
+.sponsors {
+    width: 100%;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 30px 0px;
+}
+
+.sponsors_container {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sponsors_container h1 {
+    text-transform: uppercase;
+    padding: 10px 0px;
+}
+
+.sponsors_container p {
+    padding-bottom: 30px;
+}
+
+.sponsors_logos_container {
+    display: flex;
+    justify-content: center;
+}
+
+.sponsors_logo {
+    width: calc(100% / 6);
+    padding: 10px;
+}
+
+.sponsors_logo img {
+    width: 100%;
+}
+/*Fine Sponsors Section */
