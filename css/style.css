@@ -138,7 +138,7 @@
 .speakers {
     width: 100%;
     height: 400px;
-    background-color: lightgrey;
+    background-color: #f3f3f3;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -265,7 +265,7 @@
     align-content: center;
     justify-content: center;
     padding: 20px;
-    background-color: lightgray;
+    background-color: #f7f7f7;
 }
 
 .program_left {
@@ -332,6 +332,13 @@
 .location_top h5 {
     font-size: 40px;
     text-transform: uppercase;
+}
+.location_top h5 {
+    padding-bottom: 10px;
+}
+
+.location_top i {
+    font-size: 12px;
 }
 
 #location_red {
@@ -433,24 +440,35 @@
 .tickets {
     width: 100%;
     height: 400px;
+    position: relative;
 }
 
-.tickets_background { 
-    height: 100%;
+.tickets_image {
     width: 100%;
-    filter: grayscale(60%) blur(3px);
-    left: 0px;
-    top: 0px;
-    z-index: -1;
+    height: 100%;
+    background-image: url(../img/tickets.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(80%) blur(3px);
 }
 
 .tickets_container {
     width: 60%;
     margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
     text-transform: uppercase;
     text-align: center;
     display: flex;
     align-content: center;
+}
+
+#special_ticket_card {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .tickets_cards {
@@ -472,7 +490,7 @@
     width: calc(100% / 3);
 }
 .ticket_header {
-    background-color: lightgray;
+    background-color: #e9e9e9;
     text-transform: uppercase;
     padding: 10px;
 }
@@ -508,6 +526,7 @@
     display: flex;
     align-content: center;
     justify-content: center;
+    margin-top: 30px;
 }
 
 .presentations_container {
@@ -530,9 +549,63 @@
     justify-content: center;
 }
 
-.presentations_video img {
+.presentations_top {
+    height: 60px;
+}
+
+.presentations_bottom {
+    height: 340px;
+}
+
+#presentations_img {
+    position: relative;
+}
+
+#presentations_img img {
     width: 100%;
+    padding: 20px;
+}
+
+.video_bar {
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    bottom: 10px;
+    width: 100%;  
+    text-align: center;
+}
+
+.video_bar_play {
+    width: 20%;
+    border-radius: 5px;
+    background-color: rgba(0,0,0, 0.4);
     padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.video_bar_song {
+    display: flex;
+    width: 80%;
+    margin-left: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: rgba(0,0,0, 0.9);
+    color: white;
+}
+
+.song_status {
+    width: 70%;
+    margin-left: 10px;
+    border: 1px solid lightgrey;
+}
+
+.song_icons {
+    width: 30%;
+}
+
+.song_icons i {
+    padding-left: 10px;
 }
 
 .presentations_twitter div,
@@ -540,10 +613,9 @@
     margin: 10px 0px;
 }
 
-.presentations_twitter_div {
+.twitter_bottom {
+    width: 100%;
     display: flex;
-    justify-content: center;
-    align-content: space-around;
 }
 
 .presentations_twitter i {
@@ -572,7 +644,7 @@
 /*Inizio Sponsors Section */
 .sponsors {
     width: 100%;
-    background-color: lightgrey;
+    background-color: #f6f6f6;
     display: flex;
     justify-content: center;
     align-content: center;

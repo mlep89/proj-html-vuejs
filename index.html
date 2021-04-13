@@ -246,7 +246,7 @@
             <div class="location_top">
                 <h3>Location</h3>
                 <h5>GD BUILDING, GRAND CONFERENCE ROOM</h5>
-                <P><i class="fas fa-location-arrow"></i>11 GD Building, River Mall, New york, USA, 8879</P>
+                <P><i class="fas fa-location-arrow"></i> 11 GD Building, River Mall, New york, USA, 8879</P>
                 <p id="location_red">Check For Accomodations Here</p>
                 <div class="location_bottom">
                     <div>
@@ -312,7 +312,7 @@
 
         <!--Inizio sezione Tickets-->
         <div class="tickets">
-            <!--<img src="img/tickets.jpg"  class="tickets_background" alt="">-->
+            <div class="tickets_image"></div>
             <div class="tickets_container">
                 <div class="tickets_cards">
                     <h2>tickets</h2>
@@ -335,7 +335,7 @@
                                 <p>book now</p>
                             </div>
                         </div>
-                        <div class="ticket_card">
+                        <div id="special_ticket_card" class="ticket_card">
                             <div class="ticket_header">
                                 <h3>four day passes</h3>
                                 <p>750.00 usd</p>
@@ -381,47 +381,69 @@
         <div class="presentations">
             <div class="presentations_container">
                 <div class="presentations_video">
-                    <h2>presentation</h2>
-                    <div>
-                        <img src="img/presentations.jpg" alt="">
+                    <div class="presentations_top">
+                        <h2>presentation</h2>
+                    </div>
+                    <div class="presentations_bottom">
+                        <div id="presentations_img">
+                            <img src="img/presentations.jpg" alt="">
+                            <div class="video_bar"> <!--display flex perchè contenitore di tutti gli elementi della barra-->
+                                <div class="video_bar_play">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                                <div class="video_bar_song">
+                                    <div class="song_status"></div>
+                                    <div class="song_icons">
+                                        <i class="fas fa-signal"></i>
+                                        <i class="fas fa-cog"></i>
+                                        <i class="fab fa-vimeo-v"></i>
+                                    </div>
+                                    <!--div da tenere vuoto servono solo bordi dare anche dimensioni-->
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="presentations_twitter">
-                    <h2>twitter feed</h2>
-                    <div class="presentations_twitter_div">
-                        <div>
-                            <i class="fab fa-twitter"></i>
-                        </div>
-                        <div>
-                            <p>
-                                Stand out and be vibrant with some of the best bright and bold templates on <span>@Envato</span> Elements.
-                                And add a splash of c... <a href="#">https//t.co/jFrnsnzEJK7</a>
-                            </p>
-                            <p class="presentations_date">3 days ago</p>
-                        </div>
+                    <div class="presentations_top">
+                        <h2>twitter feed</h2>
                     </div>
-                    <div class="presentations_twitter_div">
-                        <div>
-                            <i class="fab fa-twitter"></i>
+                    <div class="presentations_bottom">
+                        <div class="twitter_bottom">
+                            <div>
+                                <i class="fab fa-twitter"></i>
+                            </div>
+                            <div>
+                                <p>
+                                    Stand out and be vibrant with some of the best bright and bold templates on <span>@Envato</span> Elements.
+                                    And add a splash of c... <a href="#">https//t.co/jFrnsnzEJK7</a>
+                                </p>
+                                <p class="presentations_date">3 days ago</p>
+                            </div>
                         </div>
-                        <div>
-                            <p>
-                                Stand out and be vibrant with some of the best bright and bold templates on <span>@Envato</span> Elements.
-                                And add a splash of c... <a href="#">https//t.co/jFrnsnzEJK7</a>
-                            </p>
-                            <p class="presentations_date">9 days ago</p>
+                        <div class="twitter_bottom">
+                            <div>
+                                <i class="fab fa-twitter"></i>
+                            </div>
+                            <div>
+                                <p>
+                                    Stand out and be vibrant with some of the best bright and bold templates on <span>@Envato</span> Elements.
+                                    And add a splash of c... <a href="#">https//t.co/jFrnsnzEJK7</a>
+                                </p>
+                                <p class="presentations_date">9 days ago</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="presentations_twitter_div">
-                        <div>
-                            <i class="fab fa-twitter"></i>
-                        </div>
-                        <div>
-                            <p>
-                                Stand out and be vibrant with some of the best bright and bold templates on <span>@Envato</span> Elements.
-                                And add a splash of c... <a href="#">https//t.co/jFrnsnzEJK7</a>
-                            </p>
-                            <p class="presentations_date">11 days ago</p>
+                        <div class="twitter_bottom">
+                            <div>
+                                <i class="fab fa-twitter"></i>
+                            </div>
+                            <div>
+                                <p>
+                                    Stand out and be vibrant with some of the best bright and bold templates on <span>@Envato</span> Elements.
+                                    And add a splash of c... <a href="#">https//t.co/jFrnsnzEJK7</a>
+                                </p>
+                                <p class="presentations_date">11 days ago</p>
+                            </div>
                         </div>
                     </div>
                 </div>
