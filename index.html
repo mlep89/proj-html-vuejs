@@ -484,14 +484,40 @@
 
         <!--Inizio Footer -->
         <div class="footer">
-            <div class="footer_container" v-for="element in footer">
-                <div>
-                    {{element.title}} 
+            <div class="footer_container">
+                <div class="footer_section">
+                    <div :class="footerUppercase">
+                        {{footer[0].title}}
+                    </div> 
+                    <div :class="pGrey">
+                        {{footer[0].text}}
+                    </div>
                     
                 </div>
-                <div></div>
-                <div></div>
-                <div></div>   
+                <div class="footer_section">
+                    <div :class="footerUppercase">
+                        {{footer[1].title}}
+                    </div>
+                    <ul v-for="item in footer[1].items" :class="liststyle">
+                        <li :class="footerLi"><i class="fas fa-chevron-right"></i>  {{item}}</li>
+                    </ul>
+                </div>
+                <div class="footer_section">
+                    <div :class="footerUppercase">
+                        {{footer[2].title}}
+                    </div>
+                    <div :class="pGrey">
+                        {{footer[2].claim}}
+                    </div>
+                    <div :class="myBtn">
+                        {{footer[2].btn}}
+                    </div>
+                </div>
+                <div class="footer_section">
+                    <div :class="footerUppercase">
+                        {{footer[3].title}}
+                    </div>
+                </div>   
             </div>
         </div>
         <div class="footer_bottom"></div>
