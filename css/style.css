@@ -9,6 +9,48 @@
     width: 100vw;
 }
 
+/* INIZIO UTILITIES */
+.uppercase {
+    text-transform: uppercase;
+}
+
+.my_btn {
+    color: white;
+    background-color: #f72b0c;
+    border: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.italic_red {
+    font-style: italic;
+    color: #bf351f;
+    font-size: 12px;
+}
+
+.italic_grey {
+    font-style: italic;
+    color: #9c9c9c;
+    font-size: 12px;
+}
+
+.italic_grey_plus {
+    color: #868686;
+    font-size: 12px;
+    font-style: italic;
+}
+.p_grey {
+    font-size: 12px;
+    color: #9c9c9c;
+}
+
+.p_red {
+    font-size: 12px;
+    color: #f72b0c;
+}
+/* FINE UTILITIES */
+
 /*Inizio Header Section */
 .header {
     width: 100%;
@@ -49,7 +91,6 @@
     background-size: cover;
     color: white;
     text-align: center;
-    text-transform: uppercase;
 }
 
 .title_container > h2 {
@@ -63,13 +104,8 @@
 }
 
 .jumbo_btn {
-    padding: 10px;
-    background-color: #f72b0c;
-    color: white;
-    border: none;
     border-radius: 5px;
     margin-top: 30px;
-    text-transform: uppercase;
 }
 
 .bottom_jumbo {
@@ -81,17 +117,13 @@
     align-items: center;
 }
 
-.bottom_jumbo > h3 {
-    text-transform: uppercase;
-}
-
 .jumbo_elements {
     display: flex;
     padding: 10px;
 }
 
 .jumbo_elements i {
-    color: #9c9c9c
+    color: #9c9c9c;
 }
 
 .bottom_jumbo_box {
@@ -99,21 +131,15 @@
 }
 
 .bottom_jumbo_box h3 {
-    text-transform: uppercase;
     padding-bottom: 20px;
 }
 
 .bottom_jumbo_box p {
-    color: #9c9c9c;
     padding-bottom: 20px;
-    font-size: 14px;
 }
 
 .bottom_jumbo a {
-    font-style: italic;
-    color: #bf351f;
     text-decoration-line: none;
-    font-size: 14px;
 }
 /*Fine Jumbotron Section */
 
@@ -148,7 +174,7 @@
 
 .counter_boxes p {
     text-transform: uppercase;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .counter_input input,
@@ -163,13 +189,6 @@
 
 .counter_input h3 {
     margin-bottom: 30px;
-    text-transform: uppercase;
-}
-
-.counter_input button {
-    background-color: #f72b0c;
-    color: white;
-    text-transform: uppercase;
 }
 /*Fine Counter Section */
 
@@ -196,10 +215,6 @@
     margin-bottom: 20px;
 }
 
-.speakers_title h2 {
-    text-transform: uppercase;
-}
-
 .speakers_arrows i {
     background-color:#f72b0c;
     color: white;
@@ -223,17 +238,10 @@
 }
 
 .speakers_card > h4 {
-    text-transform: uppercase;
     margin-top: 20px;
     margin-bottom: 10px;
     color: #403d3b;
     font-size: 14px;
-}
-
-.speakers_card > p {
-    font-style: italic;
-    color: #868686;
-    font-size: 12px;
 }
 /*Fine Speaker Section */
 
@@ -279,8 +287,6 @@
 .program_header_right {
     width: 25%;
     text-align: right;
-    color: #f72b0c;
-    font-style: italic;
 }
 
 .program_timeline {
@@ -334,9 +340,7 @@
 }
 
 .program_right p {
-    color: #9c9c9c;
     line-height: 2em;
-    font-size: 8px;
 }
 
 .program_right p {
@@ -353,11 +357,10 @@
 /*Inizio Maps Section */
 .maps {
     width: 100%;
-    height: 300px;
 }
 
 .maps img {
-    width: 100px;
+    width: 200px;
 }
 /*Fine Maps Section */
 
@@ -382,7 +385,6 @@
 .location_top h3,
 .location_top h5 {
     font-size: 40px;
-    text-transform: uppercase;
 }
 .location_top h5 {
     padding-bottom: 10px;
@@ -432,20 +434,12 @@
     padding-top: 40px;
 }
 
-.news_title h2 {
-    text-transform: uppercase;
-}
-
 .news_post_container {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-content: center;
     padding-top: 30px;
-}
-
-.news_post_container h5 {
-    text-transform: uppercase;
 }
 
 .news_post_container img {
@@ -477,13 +471,6 @@
 
 .news_post p {
     padding-top: 20px;
-    color: 9c9c9c;
-    font-style: italic;
-}
-
-.new_post_red {
-    color:#bf351f;
-    font-style: italic;
 }
 /*Fine News Section */
 
@@ -500,7 +487,7 @@
     background-image: url(../img/tickets.jpg);
     background-size: cover;
     background-position: center;
-    filter: grayscale(80%) blur(3px);
+    filter: grayscale(100%) blur(100%);
 }
 
 .tickets_container {
@@ -511,15 +498,14 @@
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
-    text-transform: uppercase;
     text-align: center;
     display: flex;
     align-content: center;
 }
 
 #special_ticket_card {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .tickets_cards {
@@ -528,7 +514,7 @@
 
 .tickets_cards h2 {
     color: white;
-    text-transform: uppercase;
+    padding-bottom: 20px;
 }
 
 .ticket_cards_container {
@@ -542,30 +528,20 @@
 }
 .ticket_header {
     background-color: #e9e9e9;
-    text-transform: uppercase;
     padding: 10px;
-}
-
-.ticket_header p {
-    color: #f72b0c;
 }
 
 .ticket_main {
     background-color: white;
-    color: lightgray;
-    font-style: italic;
-    padding: 10px;
+    padding: 20px 0px;
 }
 
 .ticket_main ul {
     list-style: none;
 }
 
-.ticket_footer {
-    background-color: #f72b0c;
-    color: white;
-    text-transform: uppercase;
-    padding: 10px;
+.ticket_main ul li {
+    padding-bottom: 10px;
 }
 /*Fine Tickets Section */
 
@@ -584,10 +560,6 @@
     width: 60%;
     height: 100%;
     display: flex;
-}
-
-.presentations_container h2 {
-    text-transform: uppercase;
 }
 
 .presentations_video,
@@ -682,12 +654,10 @@
 
 .presentations_twitter a,
 .presentations_twitter span {
-    color: #bf351f;
+    color: #f72b0c;
 }
 
 .presentations_date {
-    color: grey;
-    font-style: italic;
     padding-top: 10px;
 }
 /*Fine Presentations Section */
@@ -708,8 +678,7 @@
     text-align: center;
 }
 
-.sponsors_container h1 {
-    text-transform: uppercase;
+.sponsors_container h2 {
     padding: 10px 0px;
 }
 
