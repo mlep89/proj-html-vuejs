@@ -9,7 +9,8 @@ var root = new Vue ({
         pGrey: "p_grey",
         myBtn: "my_btn",
         footerLi: "footer_li",
-        header: ["home","pages","program","tickets","speakers","papers","blog","shortcodes","search" ],
+        footerBtn: "footer_btn",
+        header: ["home","pages","program","tickets","speakers","papers","blog","shortcodes","|" ],
         footer: [ 
             {
                 "title":'about us',
@@ -33,18 +34,18 @@ var root = new Vue ({
             {
                 "title": 'gallery from last year',
                 "img": [
-                    '/Users/marcolepore/Documents/Boolean/proj-html-vuejs/img/footer_1.jpg',
-                    '/Users/marcolepore/Documents/Boolean/proj-html-vuejs/img/footer_2.jpg',
-                    '/Users/marcolepore/Documents/Boolean/proj-html-vuejs/img/footer_3.jpg',
-                    '/Users/marcolepore/Documents/Boolean/proj-html-vuejs/img/footer_4.jpg',
-                    '/Users/marcolepore/Documents/Boolean/proj-html-vuejs/img/footer_5.jpg',
-                    '/Users/marcolepore/Documents/Boolean/proj-html-vuejs/img/footer_6.jpg',
-                    '/Users/marcolepore/Documents/Boolean/proj-html-vuejs/img/footer_7.jpg',
-                    '/Users/marcolepore/Documents/Boolean/proj-html-vuejs/img/footer_8.jpg',
-                    '/Users/marcolepore/Documents/Boolean/proj-html-vuejs/img/footer_9.jpg',
-                    '/Users/marcolepore/Documents/Boolean/proj-html-vuejs/img/footer_10.jpg',
-                    '/Users/marcolepore/Documents/Boolean/proj-html-vuejs/img/footer_11.jpg',
-                    '/Users/marcolepore/Documents/Boolean/proj-html-vuejs/img/footer_12.jpg']
+                    'footer_1.jpg',
+                    'footer_2.jpg',
+                    'footer_3.jpg',
+                    'footer_4.jpg',
+                    'footer_5.jpg',
+                    'footer_6.jpg',
+                    'footer_7.jpg',
+                    'footer_8.jpg',
+                    'footer_9.jpg',
+                    'footer_10.jpg',
+                    'footer_11.jpg',
+                    'footer_12.jpg']
             }
         ],
         bottomFooter: ['Copyright GoodLayers, All Rights Reserved', 'About Us | Accomodation | Call For Paper | Contact Us'],
