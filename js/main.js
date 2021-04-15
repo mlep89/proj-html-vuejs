@@ -7,6 +7,7 @@ var root = new Vue ({
         liststyle: "liststyle",
         inline: "inline",
         footerUppercase: "footer_uppercase",
+        footerIcons: "footer_icons",
         pGrey: "p_grey",
         myBtn: "my_btn",
         footerLi: "footer_li",
@@ -52,7 +53,20 @@ var root = new Vue ({
             }
         ],
         bottomFooter: ['Copyright GoodLayers, All Rights Reserved', 'About Us | Accomodation | Call For Paper | Contact Us'],
+        icons: [
+            '<i class="fab fa-facebook-square"></i>',
+            '<i class="fab fa-twitter-square"></i>',
+            '<i class="fab fa-linkedin"></i>',
+            '<i class="fab fa-google-plus-square"></i>',
+            '<i class="fab fa-pinterest-square"></i>',
+            '<i class="fab fa-whatsapp-square"></i>'
+        ],
     },
     methods: {
+        printIcons: function() {
+            for (i=0; i < icons.length; i++) {
+                this.counter += 1;
+            }
+        }
     },
 }); 

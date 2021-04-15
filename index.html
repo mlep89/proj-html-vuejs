@@ -493,8 +493,8 @@
                     <div :class="pGrey">
                         {{footer[0].text}}
                     </div>
-                    <div>
-                        <i></i>
+                    <div :class="footerIcons">
+                        <p v-for="icon in icons" v-html="icon"></p>
                     </div>
                 </div>
                 <div class="footer_section">
