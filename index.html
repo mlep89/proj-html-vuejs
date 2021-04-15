@@ -21,6 +21,7 @@
                 <div :class="menu">
                     <ul :class="liststyle">
                         <li v-for="item in header" :class="inline">{{item}}</li>
+                        <span>|<i :class="search"></i></span>
                     </ul>
                 </div>
             </div>
@@ -492,7 +493,9 @@
                     <div :class="pGrey">
                         {{footer[0].text}}
                     </div>
-                    
+                    <div>
+                        <i></i>
+                    </div>
                 </div>
                 <div class="footer_section">
                     <div :class="footerUppercase">
@@ -521,7 +524,11 @@
                 </div>   
             </div>
         </div>
-        <div class="footer_bottom"></div>
+        <div :class="footerBottom">
+            <div :class="footerBottomContainer">
+                <p v-for="item in bottomFooter">{{item}}</p>
+            </div>
+        </div>
         <!--Fine Footer -->
 
     </div>

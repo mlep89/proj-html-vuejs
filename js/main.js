@@ -1,6 +1,7 @@
 var root = new Vue ({
     el: "#root",
     data: {
+        search: "fas fa-search minus",
         logo: "/Users/marcolepore/Documents/Boolean/proj-html-vuejs/img/logo.png",
         menu: "menu",
         liststyle: "liststyle",
@@ -10,7 +11,9 @@ var root = new Vue ({
         myBtn: "my_btn",
         footerLi: "footer_li",
         footerBtn: "footer_btn",
-        header: ["home","pages","program","tickets","speakers","papers","blog","shortcodes","|" ],
+        footerBottom: "footer_bottom",
+        footerBottomContainer: "footer_bottom_container",
+        header: ["home","pages","program","tickets","speakers","papers","blog","shortcodes"],
         footer: [ 
             {
                 "title":'about us',
@@ -51,8 +54,5 @@ var root = new Vue ({
         bottomFooter: ['Copyright GoodLayers, All Rights Reserved', 'About Us | Accomodation | Call For Paper | Contact Us'],
     },
     methods: {
-        printMenu: function (){
-            return "test scrittura";
-        }
     },
 }); 
