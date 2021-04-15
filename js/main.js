@@ -61,6 +61,21 @@ var root = new Vue ({
             '<i class="fab fa-pinterest-square"></i>',
             '<i class="fab fa-whatsapp-square"></i>'
         ],
+        footerImages: 'footer_img',
+        footerImg: [
+            '/Users/marcolepore/Documents/Boolean/proj-html-vuejs/img/footer_1.jpg',
+            '/Users/marcolepore/Documents/Boolean/proj-html-vuejs/img/footer_2.jpg',
+            '/Users/marcolepore/Documents/Boolean/proj-html-vuejs/img/footer_3.jpg',
+            '/Users/marcolepore/Documents/Boolean/proj-html-vuejs/img/footer_4.jpg',
+            '/Users/marcolepore/Documents/Boolean/proj-html-vuejs/img/footer_5.jpg',
+            '/Users/marcolepore/Documents/Boolean/proj-html-vuejs/img/footer_6.jpg',
+            '/Users/marcolepore/Documents/Boolean/proj-html-vuejs/img/footer_7.jpg',
+            '/Users/marcolepore/Documents/Boolean/proj-html-vuejs/img/footer_8.jpg',
+            '/Users/marcolepore/Documents/Boolean/proj-html-vuejs/img/footer_9.jpg',
+            '/Users/marcolepore/Documents/Boolean/proj-html-vuejs/img/footer_10.jpg',
+            '/Users/marcolepore/Documents/Boolean/proj-html-vuejs/img/footer_11.jpg',
+            '/Users/marcolepore/Documents/Boolean/proj-html-vuejs/img/footer_12.jpg',
+        ]
     },
     methods: {
         printIcons: function() {
